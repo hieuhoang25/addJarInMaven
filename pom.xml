@@ -9,26 +9,20 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
+        
+        <jars>D:\JavaProjects\TestAddJarMaven\libs</jars>
+
     </properties>
     <dependencies>
         
         <dependency>
-            <groupId>hicode</groupId>
-            <artifactId>library</artifactId>
+            <groupId>libclamav</groupId>
+            <artifactId>libclamav</artifactId>
             <version>1.0</version>
-            <systemPath>${project.basedir}/libs/chart-bar-animation.jar</systemPath>
-
             <scope>system</scope>
+            <systemPath>${jars}/TimingFramework-0.55.jar</systemPath>
         </dependency>
-        <dependency>
-            <groupId>tesst</groupId>
-            <artifactId>library</artifactId>
-            <version>1.0</version>
-            <systemPath>${project.basedir}/libs/TimingFramework-0.55.jar</systemPath>
-
-            <scope>system</scope>
-        </dependency>
-
     </dependencies>
+
  
 </project>
